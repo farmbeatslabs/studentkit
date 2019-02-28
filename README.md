@@ -7,18 +7,19 @@ The Microsoft FarmBeats Student Kits are easy-to-use solutions that help
 students learn about precision agriculture and Internet of Things (IoT)
 technologies.
 
-![FarmBeats Student Kit](media/6ce37f9fac5376235962215af0db38c9.png)
+The Microsoft FarmBeats Student Kits are tools to help enable data driven
+farming. We believe that data, coupled with the farmer’s knowledge and intuition
+about their farm, can help increase farm productivity, and help reduce cost.
 
-[The first FarmBeats Student Kit, the Indoor
-M1](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/readme.md),
-includes preconfigured Microsoft Azure cloud services and a Raspberry Pi with
-soil moisture, light, ambient temperature, and humidity sensors to collect data
-that can provide insights to help you understand how to improve productivity,
-increase yield, and save resources.
+Kits:
+
+-   [Indoor
+    M1](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/readme.md)
+    – Raspberry Pi + Light, Soil, Temp, Humidity, Pressure sensors.
 
 We would love to hear from you for any successes or failures you experience
 along the way.
 
-We hope you enjoy using the kit.
+We hope you enjoy using the kits.
 
 The FarmBeats Student Kit team!
