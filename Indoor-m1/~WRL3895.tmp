@@ -27,21 +27,18 @@ Installing Windows 10 IoT Core on you Raspberry Pi 3
 
 1.  Install the dashboard application and open it
 
-2.  Select **set up a new device** from the side bar.
+2.  Select **set up a new device** from the side bar
 
 3.  Select the options as shown in the image below. Make sure you select the
     correct drive for your microSD card and give your device a name and admin
     password.
 
-    1.  You may need to use the SD card adapter and install it in a USB port on
-        your PC
-
 ![](media/14b397bfb07da245ad7b078ee05417b0.jpg)
 
 1.  Select the Wi-Fi network connection you want your Raspberry Pi to connect
-    to, if required. Only wi-fi networks your PC already connects to will be
-    shown. The Wi-Fi information from your PC will be shared with the Raspberry
-    Pi.
+    to, if required. Only networks your PC connects to will be shown. The Wi-Fi
+    information from your PC will be shared with the Raspberry Pi. (note: this
+    is not 100% reliable)
 
 2.  Select the **I accept the software license** terms and click **download and
     install.**
@@ -52,40 +49,28 @@ show you the progress.
 
 ![](media/d02a8f386599a6d7a6a0d5ccfd2041f8.jpg)
 
-1.  Once the image has been installed on the microSD card, you will get the
-    message “Your SD card is ready”. Now it's time to eject it from your PC and
-    go over to the Raspberry Pi and insert it into the slot on the underneath.
+1.  Once the image has been installed on the microSD card, it's time to eject it
+    from your PC and go over to the Raspberry Pi and insert it into the slot on
+    the underneath.
 
-2.  \<insert photo\>
-
-Connect Sensors
----------------
+Connect Sensors 
+----------------
 
 Adding sensors to your Raspberry Pi is easy.
 
 1.  Add Grove Base Hat to your Raspberry Pi. Match the end pins up and press
-    down firmly.
+    down firmly. It’s also a good idea to screw in the supports on the side
+    opposite the pins to provide support and stop the other side of the board
+    from collapsing.
 
 ![](media/cfb53e517949e196492ca22e17906f8a.jpg)
 
-1.  It’s also a good idea to screw in the supports on the side opposite the pins
-    to provide support and stop the other side of the board from collapsing.
+1.  Plug the Soil Moisture Sensor into socket A2. If you have a second one plug
+    it into A4.
 
-2.  \<insert photo\>
+2.  Plug the Light Sensor into socket A0.
 
-3.  Plug the Capacitive Soil Moisture Sensor into socket A2. If you have a
-    second one plug it into A4.
-
-![](media/f5480d415f29c578760d73d7f20ef930.png)
-
-1.  Plug the Light Sensor into socket A0.
-
->   \<insert photo\>
-
-1.  Plug the Barometer Sensor (BME280) with Temperature and Humidity into the
-    bottom left I2C socket
-
->   \<insert photo\>
+3.  Plug the BME280 Temperature Sensor into the bottom left I2C socket
 
 Connecting to the LAN and Internet
 ----------------------------------
@@ -107,8 +92,8 @@ your PC. Ideally you would have the PC and Raspberry Pi on the same network.
     IP address if you are plugged into ethernet. You can use the console to see
     the network IP address.
 
-Power on
---------
+Power on 
+---------
 
 1.  Plug the large end of the micro USB cable into the power adapter
 
@@ -186,8 +171,8 @@ Installing Gateway Application
 
 3.  Set Application to startup when device boots
 
-Deploy device and plant together
---------------------------------
+Deploy device and plant together 
+---------------------------------
 
 1.  Position FarmBeats Labs Indoor M1 unit near soil in an area that can provide
     power and connectivity to the Raspberry Pi device.
