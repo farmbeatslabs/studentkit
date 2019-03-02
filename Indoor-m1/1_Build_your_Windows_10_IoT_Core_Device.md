@@ -56,7 +56,9 @@ show you the progress.
     message “Your SD card is ready”. Now it's time to eject it from your PC and
     go over to the Raspberry Pi and insert it into the slot on the underneath.
 
-2.  \<insert photo\>
+![](media/123d0ab28eea712e116c345e02446789.jpg)
+
+>   image1.jpeg
 
 Connect Sensors
 ---------------
@@ -71,21 +73,26 @@ Adding sensors to your Raspberry Pi is easy.
 1.  It’s also a good idea to screw in the supports on the side opposite the pins
     to provide support and stop the other side of the board from collapsing.
 
-2.  \<insert photo\>
+![](media/1b423b9f6dc64120cb0e4a0e902ea824.png)
 
-3.  Plug the Capacitive Soil Moisture Sensor into socket A2. If you have a
+1.  Plug the Capacitive Soil Moisture Sensor into socket A2. If you have a
     second one plug it into A4.
 
 ![](media/f5480d415f29c578760d73d7f20ef930.png)
 
 1.  Plug the Light Sensor into socket A0.
 
->   \<insert photo\> sdf
+![](media/d13a81eb0f03be4b60cd1230990784d3.png)
 
 1.  Plug the Barometer Sensor (BME280) with Temperature and Humidity into the
-    bottom left I2C socket
+    bottom left I2C socket.
 
->   \<insert photo\>
+![](media/10bf337bf57976cb561754df48831bc3.png)
+
+1.  Once all your sensors are plugged in you should have something that looks
+    like this.
+
+    ![image1.jpeg](media/c0500da1f7f7b2ef4d71de685ae5fa97.jpg)
 
 Connecting to the LAN and Internet
 ----------------------------------
