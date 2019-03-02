@@ -80,7 +80,7 @@ Adding sensors to your Raspberry Pi is easy.
 
 1.  Plug the Light Sensor into socket A0.
 
->   \<insert photo\>
+>   \<insert photo\> sdf
 
 1.  Plug the Barometer Sensor (BME280) with Temperature and Humidity into the
     bottom left I2C socket

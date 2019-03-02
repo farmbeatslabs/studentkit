@@ -72,3 +72,10 @@ Step 1 – Register your user at the FarmBeats Student Kit Portal
 ![](media/85a7ac725d772e2efd109261b7dddf2f.png)
 
 >   Register your devices
+
+1.  To register your Student Kit device you are going to need a unique ID to use
+    as the claim code. The unique ID that we use is from the Mac address of the
+    LAN adapter on your Raspberry Pi. Instructions for obtaining the claim code
+    are here.
+
+![](media/623459e33dc35d0932d84436a803f3d2.png)
