@@ -21,3 +21,7 @@ To get started follow these steps get up and going:
 
 -   3 - [Configure your Azure IoT Central Cloud
     Services](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/3_Configure_your_Azure_IoT_Central_Cloud_Service.md)
+
+
+Other documents
+- [FarmBeats Student Kit : Indoor M1 Hardware List](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/Indoor-M1-Hardware.md)
