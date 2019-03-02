@@ -92,6 +92,8 @@ Adding sensors to your Raspberry Pi is easy.
 
 ![image1.jpeg](media/f0c289152a4ecce31ae8c600494f414d.jpg)
 
+image1.jpeg
+
 Connecting to the LAN and Internet
 ----------------------------------
 
@@ -192,7 +194,7 @@ Configuring Windows 10 IoT Core
         connections on the Raspberry Pi. Look for the one that starts Record the
         Mac address of your LAN card
 
-        ![](media/3696af5f61d76ece9e7422b8b2a6d107.png)
+    ![](media/3696af5f61d76ece9e7422b8b2a6d107.png)
 
 2.  Look for the one that starts with LAN and record the Physical address. This
     is your unique device ID that is used as the claim code for device
@@ -219,17 +221,31 @@ Installing Gateway Application
     Application](https://fblassets.blob.core.windows.net/releases/FarmBeatsLabs.UWP.Headless_1.0.11.0_arm.zip)
     software.
 
-    ![](media/a91b28a4890c5a24427279e20aadc9d9.png)
+![](media/a91b28a4890c5a24427279e20aadc9d9.png)
 
-2.  Select
+1.  Select
 
 ![](media/515bd27e42ff7da4f2d6d0589da9fd1d.png)
 
 1.  Select Appxbundle
 
-2.  Install Application onto Windows 10 IoT Core.
+![](media/ee2058e2e0cdaa676a719212aeac5569.png)
 
-3.  Set Application to startup when device boots
+1.  Choose file, select CoreRuntime2.1
+
+![](media/24c4147d4c7ed9ff6ce841b681f42c6f.png)
+
+![](media/a4386c03a586f8b9f8ab4ac52c4e5d8e.png)
+
+![](media/b354423514a58623f768a1cfba0a9150.png)
+
+1.  Set the FarmBeatsLabs Indoor Grove Base Hat to Startup
+
+![](media/26106e22a35f9156e50772ec7e130abc.png)
+
+1.  Install Application onto Windows 10 IoT Core.
+
+2.  Set Application to startup when device boots
 
 Deploy device and plant together
 --------------------------------
@@ -242,3 +258,9 @@ Deploy device and plant together
 3.  Position Temp / Humidity Sensor
 
 4.  Setup Web Camera (optional)
+
+You have successfully installed and deployed your Windows 10 IoT Core Sensor
+Device
+
+Now proceed to [Step 2 – Register your FarmBeats Student Kit User and
+Device](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/2_Register_your_FarmBeats_Student_Kit_User_and_Device.md)
