@@ -56,9 +56,7 @@ show you the progress.
     message “Your SD card is ready”. Now it's time to eject it from your PC and
     go over to the Raspberry Pi and insert it into the slot on the underneath.
 
-![](media/123d0ab28eea712e116c345e02446789.jpg)
-
->   image1.jpeg
+![](media/4d30fd69f13ba83c035814c019a86aad.jpg)
 
 Connect Sensors
 ---------------
@@ -68,12 +66,12 @@ Adding sensors to your Raspberry Pi is easy.
 1.  Add Grove Base Hat to your Raspberry Pi. Match the end pins up and press
     down firmly.
 
-![](media/cfb53e517949e196492ca22e17906f8a.jpg)
+![](media/4b802b3790f57552645748940ee204f0.jpg)
 
 1.  It’s also a good idea to screw in the supports on the side opposite the pins
     to provide support and stop the other side of the board from collapsing.
 
-![](media/1b423b9f6dc64120cb0e4a0e902ea824.png)
+![](media/1f209ed732abfc9e0d013b58ee6b912e.png)
 
 1.  Plug the Capacitive Soil Moisture Sensor into socket A2. If you have a
     second one plug it into A4.
@@ -92,7 +90,7 @@ Adding sensors to your Raspberry Pi is easy.
 1.  Once all your sensors are plugged in you should have something that looks
     like this.
 
-    ![image1.jpeg](media/c0500da1f7f7b2ef4d71de685ae5fa97.jpg)
+![image1.jpeg](media/f0c289152a4ecce31ae8c600494f414d.jpg)
 
 Connecting to the LAN and Internet
 ----------------------------------
@@ -100,19 +98,33 @@ Connecting to the LAN and Internet
 There are multiple options to getting your Raspberry Pi online and manageable by
 your PC. Ideally you would have the PC and Raspberry Pi on the same network.
 
-1.  **Ethernet Cabled** - LAN cables into the same hub or switch work the best.
-    Get them both plugged into the same device for the easiest way to connect
-    them.
+1.  **Ethernet Cabled** – Plug one side of the LAN cable into the Raspberry Pi
+    and the other into the same Ethernet Hub or Switch that your PC is plugged
+    into.
 
-2.  **Wi-Fi** - During the creation of the device image you had the option of
+![](media/ceab608d1b677684ce329ee41425de39.jpg)
+
+>   image1.jpeg
+
+![](media/034244884046f41ec0ddc435fb656049.jpg)
+
+>   cid:1a1f9a9d-053a-4118-870b-c7af3631e2d5
+
+1.  **Wi-Fi** - During the creation of the device image you had the option of
     having the Raspberry Pi join a wi-fi as part of the SD Card build. If that
     didn’t work then see this page for more details
     <https://docs.microsoft.com/en-us/windows/iot-core/connect-your-device/setupwifi>
 
-3.  **Mouse, Keyboard, Monitor** – it’s also ideal to connect a mouse, keyboard
+![](media/3d433e13680abefbe52f56ec75e90e0c.png)
+
+1.  **Mouse, Keyboard, Monitor** – it’s also ideal to connect a mouse, keyboard
     and monitor to the device which can help you provision wi-fi or lookup the
     IP address if you are plugged into ethernet. You can use the console to see
     the network IP address.
+
+    1.  Plug the mouse and keyboard into the USB
+
+    2.  Plug the HDMI cable into the RPi
 
 Power on
 --------
@@ -157,10 +169,12 @@ Configuring Windows 10 IoT Core
 
 1.  In the Windows IoT Dashboard select the **My devices** tab on the top left.
 
-2.  In the **My devices** page right click on your Raspberry Pi to access the
+![](media/fbd090a89c367aa72d697c8a7c213b5f.png)
+
+1.  In the **My devices** page right click on your Raspberry Pi to access the
     menu.
 
-3.  Select the **Open in device portal** menu item
+2.  Select the **Open in device portal** menu item
 
 ![](media/bb5260823b9a908db763d51bc5b5a08a.png)
 
@@ -172,15 +186,31 @@ Configuring Windows 10 IoT Core
 
 ![](media/e3e42de7d615f0dcbde66ed907c1e98f.png)
 
-1.  Select **Connectivity** on the menu on the left.
+1.  Select **Connectivity** on the menu on the left, then Select **Network**
 
-2.  Record the Mac address of your LAN card
+    1.  On the right hand side of the screen are listed all the types of network
+        connections on the Raspberry Pi. Look for the one that starts Record the
+        Mac address of your LAN card
 
-![](media/605419700e3d727f7f67fffffd6544c7.png)
+        ![](media/3696af5f61d76ece9e7422b8b2a6d107.png)
 
-1.  Check for Windows Updates (Tests internet connectivity)
+2.  Look for the one that starts with LAN and record the Physical address. This
+    is your unique device ID that is used as the claim code for device
+    registration on the Student Kit Portal.
+
+![](media/4e2048303dd6880d896ea3baaa9ebfc8.png)
+
+1.  On the left menu click on the Windows Updates (Tests internet connectivity)
 
 2.  Change your Time zone (optional)
+
+3.  To change the **device name** select “Device Settings” on the left menu.
+    Then type a new name and select Save. It will prompt you to reboot the
+    device.
+
+![](media/9905fa05c59c88c819f3d1cfd81a019f.png)
+
+![](media/bd0eb7dc256a863a939b937a45a0812a.png)
 
 Installing Gateway Application
 ------------------------------
@@ -188,6 +218,14 @@ Installing Gateway Application
 1.  Download and unzip the latest [Sensor
     Application](https://fblassets.blob.core.windows.net/releases/FarmBeatsLabs.UWP.Headless_1.0.11.0_arm.zip)
     software.
+
+    ![](media/a91b28a4890c5a24427279e20aadc9d9.png)
+
+2.  Select
+
+![](media/515bd27e42ff7da4f2d6d0589da9fd1d.png)
+
+1.  Select Appxbundle
 
 2.  Install Application onto Windows 10 IoT Core.
 
