@@ -5,6 +5,8 @@ Microsoft FarmBeats Student Kit : Indoor M1
 
 FarmBeats Student Kit
 
+FarmBeats Student Kit
+
 The FarmBeats Student Kit - Indoor M1, includes preconfigured Microsoft Azure
 cloud services and a Raspberry Pi with soil moisture, light, air temperature,
 humidity and barometric pressure sensors to collect data that can provide
@@ -85,7 +87,8 @@ kit up yourself you are more than welcome to purchase the same components and
 utilize our cloud services for provisioning, monitoring and managing up to five
 devices for free.
 
-FarmBeats Student Kit: Indoor M1 Hardware List
+[FarmBeats Student Kit: Indoor M1 Hardware
+List](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/Indoor_M1_Hardware_List.md)
 
 Parts List
 
