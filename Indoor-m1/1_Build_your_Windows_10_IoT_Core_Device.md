@@ -80,7 +80,7 @@ the Configure Windows 10 IoT Core section.*
 -   You will get a security prompt for the Deployment Image Servicing and
     Management tool, click Yes to allow this to run.
 
-![](media/299a2db21e83f93afb3047b5cd673802.png)
+![](media/a34610885c7b518026d3c7671413e894.png)
 
 ![](media/02be50d6b6f82c721bbb3b5301707444.png)
 
@@ -156,7 +156,7 @@ additional manual steps to get it online.*
 
 ![](media/ceab608d1b677684ce329ee41425de39.jpg)
 
-![](media/034244884046f41ec0ddc435fb656049.jpg)
+![](media/3c6a35bbeaf3da84b9b03baed8a04eef.jpg)
 
 -   **Wi-Fi** - During the creation of the device image you had the option of
     having the Raspberry Pi join a wi-fi as part of the SD Card operating system
@@ -190,8 +190,8 @@ Power on your device
     see the Windows Logo within a few seconds and be able to watch this process
     on the monitor. If you don’t see a Windows Logo then
 
-The “out of the box” setup process. 
-------------------------------------
+The “out of the box” setup process.
+-----------------------------------
 
 You need to do a few steps on the device to complete the operating system
 installation.
@@ -209,16 +209,15 @@ installation.
 
 -   Even if the device is connected to the Ethernet the next screen will allow
     you to configure your internet with Wi-Fi details. User the mouse and
-    keyboard to enter your Wi-Fi password to connect to the web.  
-    
+    keyboard to enter your Wi-Fi password to connect to the web.
 
-    ![](media/3bf08831f9ef4abec74b7df017d81b10.png)
+![](media/0eb869c7aede0e6380715461cee8a1d1.png)
 
 It'll take a couple of minutes, but when booted up you'll see the Windows 10 IoT
 Core splash screen. There's no flipping in and out of Windows and launching apps
 like you would on a PC.
 
-![](media/59ea6b4030cfb0ae1b8119a0da07549c.png)
+![](media/2f7a8464ac562e778827f1cad4e10370.png)
 
 -   When booted, check that you have a valid IP address. At this point you can
     remotely administer the device via a web browser. To access the device via a
@@ -295,12 +294,12 @@ Ethernet.*
     the Physical Address that we are using for the **Device ID** is
     **b827eb653aba.**
 
-![](media/6438017976320ee1164cb9cc93c4ed9c.png)
+![](media/c61878d9e66cc0e78cbb109a6d87ad84.png)
 
 -   To test your device has internet connectivity you can type “ping 1.1.1.1”
     and you should get a response from a global DNS server.
 
-![](media/1ba5e601d013c5104bc3285025d57e91.png)
+![](media/e40aa98c0a2e50fb4cb7a3fb8c9fd001.png)
 
 Installing Sensor Gateway Application Software
 ----------------------------------------------
@@ -320,7 +319,7 @@ Azure IoT Central.
 -   In the Windows Device Portal, Select **Apps** on the left menu ad then **App
     manager**
 
-![](media/515bd27e42ff7da4f2d6d0589da9fd1d.png)
+![](media/bc150349d330682041d1a8df044ddba4.png)
 
 -   Select **[Choose File]** button in the **“Select the application package”**
 
