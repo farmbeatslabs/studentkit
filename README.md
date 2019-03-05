@@ -29,7 +29,7 @@ technologies.
 
 Student Kits:
 
--   FarmBeats Student Kit: [Indoor
+-   [FarmBeats Student Kit: Indoor
     M1](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/readme.md)
     – Raspberry Pi with Light, Soil Moisture, Air Temperature, Humidity, and
     Barometric Pressure sensors.
