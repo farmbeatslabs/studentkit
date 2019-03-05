@@ -1,5 +1,5 @@
-Setting up your sensor device
-=============================
+Build your Windows 10 IoT Core Sensor Device
+============================================
 
 This lab document is to help students with the FarmBeats Student Kit hardware
 setup. It includes installing Windows 10 IoT Core on your Raspberry Pi,
