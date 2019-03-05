@@ -3,6 +3,8 @@ Microsoft FarmBeats Student Kit : Indoor M1
 
 ![FarmBeats Student Kit](media/6ce37f9fac5376235962215af0db38c9.png)
 
+FarmBeats Student Kit
+
 The FarmBeats Student Kit - Indoor M1, includes preconfigured Microsoft Azure
 cloud services and a Raspberry Pi with soil moisture, light, air temperature,
 humidity and barometric pressure sensors to collect data that can provide
@@ -51,8 +53,8 @@ To get started follow these instructions:
 
     -   Attach sensors, install OS, install application, and test your device.
 
--   2 - [Register your user and
-    devices](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/2_Register_your_FarmBeats_Student_Kit_User_and_Device.md)
+-   2 - [Register your FarmBeats Student Kit User and
+    Devices](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/2_Register_your_FarmBeats_Student_Kit_User_and_Device.md)
 
     -   Sign up at the FarmBeats Student Kit Portal and register your device.
 
@@ -61,12 +63,13 @@ To get started follow these instructions:
 
     -   Customize your Azure IoT Central to gain insights from sensor data.
 
-Installation Checklist 
------------------------
+Installation Checklist
+----------------------
 
 To assist you in getting through the setup documentation we have created this
-checklist. Download, print out, and check of each off the key installation steps
-as you go to ensure you don’t miss anything important.
+[checklist](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/Indoor_M1_Installation_Checklist.pdf).
+Download, print out, and check of each off the key installation steps as you go,
+to ensure you don’t miss anything important.
 
 How to purchase a FarmBeats Student Kit
 ---------------------------------------
@@ -82,8 +85,7 @@ kit up yourself you are more than welcome to purchase the same components and
 utilize our cloud services for provisioning, monitoring and managing up to five
 devices for free.
 
-[FarmBeats Student Kit: Indoor M1 Hardware
-List](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/Indoor-M1-Hardware.md)
+FarmBeats Student Kit: Indoor M1 Hardware List
 
 Parts List
 
