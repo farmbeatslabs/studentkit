@@ -1,8 +1,8 @@
 FarmBeats Student Kit Hardware: Indoor M1
 =========================================
 
-This is the BOM list for all the hardware that ships in the FarmBeats Student
-Kit Indoor-M1.
+This is the of all the hardware that ships in the FarmBeats Student Kit: Indoor
+M1.
 
 ![](media/de940c9382f0be6875fbf6580ecc899b.jpg)
 
@@ -21,11 +21,19 @@ FarmBeats student kit.
 [Grove Base Hat for Raspberry
 Pi](https://www.seeedstudio.io/Grove-Base-Hat-for-Raspberry-Pi-p-3186.html)
 
-The Raspberry Pi Base Hat allows you to add more sensors.
+The Grove Base Hat for Raspberry Pi allows you to add analog, digital and I2C
+sensors.
 
 ![Grove - Temp&Humi&Barometer Sensor (BME280)](media/8ac153a10e6689d24fd556813135e710.jpg)
 
-[Grove Soil Moisture
+[Grove Temperature, Humidity and Barometric Pressure
+Sensor](https://www.seeedstudio.io/Grove-Temp%26Humi%26Barometer-Sensor-%28BME280%29-p-2653.html)
+
+The BME 280 is a Bosch, three-in-one, high-precision environmental sensor.
+
+![A circuit board Description generated with high confidence](media/de940c9382f0be6875fbf6580ecc899b.jpg)
+
+[Grove Capacitive Soil Moisture
 Sensor](https://www.seeedstudio.com/Grove-Capacitive-Moisture-Sensor-Corrosion-Resistant-p-2850.html)
 
 The soil moisture sensor measurements are based on capacitance changes.
@@ -44,7 +52,7 @@ Cable](https://www.seeedstudio.com/Grove-Universal-4-Pin-Buckled-50cm-Cable-5-PC
 
 The Universal 4 Pin Buckled Cable allows you to connect all of the components.
 
-![https://images-na.ssl-images-amazon.com/images/I/61RLNh5Af2L._SL1100_.jpg](media/fa7891f0dc147f6af2d50a814138f195.jpg)
+![https://images-na.ssl-images-amazon.com/images/I/61RLNh5Af2L.SL1100.jpg](media/fa7891f0dc147f6af2d50a814138f195.jpg)
 
 [SD Card 32GB
 Fast](https://www.amazon.com/SanDisk-Ultra-Class-Memory-SDSDUNC-032G-GN6IN/dp/B0143RT8OY/ref=sr_1_6?ie=UTF8&qid=1537124895&sr=8-6&keywords=sd+card+32)
