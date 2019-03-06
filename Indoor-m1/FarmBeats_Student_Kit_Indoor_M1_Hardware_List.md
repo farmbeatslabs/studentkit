@@ -1,4 +1,4 @@
-FarmBeats Student Kit Hardware: Indoor M1
+FarmBeats Student Kit: Indoor M1 Hardware
 =========================================
 
 This is all the hardware that ships in the FarmBeats Student Kit: Indoor M1.
