@@ -98,7 +98,9 @@ Parts List
 
 -   1 x Grove Soil Moisture Sensor
 
--   1 x Grove Temperature & Humidity Sensor 1 x Grove Light Sensor
+-   1 x Grove Temperature, Humidity & Barometer Sensor 
+
+-   1 x Grove Light Sensor
 
 -   2 x Grove 50cm Long Cables
 
