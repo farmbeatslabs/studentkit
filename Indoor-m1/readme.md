@@ -1,17 +1,13 @@
-Microsoft FarmBeats Student Kit : Indoor M1
-===========================================
+Microsoft FarmBeats Student Kit: Indoor M1
+==========================================
 
 ![FarmBeats Student Kit](media/6ce37f9fac5376235962215af0db38c9.png)
 
-FarmBeats Student Kit
-
-FarmBeats Student Kit
-
 The FarmBeats Student Kit - Indoor M1, includes preconfigured Microsoft Azure
-cloud services and a Raspberry Pi with soil moisture, light, air temperature,
-humidity and barometric pressure sensors to collect data that can provide
-insights to help you understand how to improve productivity, increase yield, and
-save resources.
+cloud services, and a Raspberry Pi with Windows 10 IoT Core along with soil
+moisture, light, air temperature, humidity and barometric pressure sensors to
+collect data that can provide insights to help you understand how to improve
+productivity, increase yield, and save resources.
 
 What are the components that make up the kit
 --------------------------------------------
@@ -45,6 +41,21 @@ connect the physical and digital worlds, monitor, and manage your IoT devices.
 Add maps, search, routing, and traffic capabilities to your apps with geospatial
 services APIs that integrate seamlessly with other Azure tools and services.
 
+Installation Checklist
+----------------------
+
+To assist you in getting through the setup documentation we have created this
+[checklist](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/Indoor_M1_Installation_Checklist.pdf).
+Download, print out, and check of each off the key installation steps as you go,
+to ensure you don’t miss anything important.
+
+Known Issues and Frequently Asked Questions
+-------------------------------------------
+
+To keep any a single place for issues, additional questions, troubleshooting
+information we have put together a list of known issues and frequently asked
+questions here.
+
 Setting up your FarmBeats Student Kit
 -------------------------------------
 
@@ -64,14 +75,6 @@ To get started follow these instructions:
     Services](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/3_Configure_your_Azure_IoT_Central_Cloud_Service.md)
 
     -   Customize your Azure IoT Central to gain insights from sensor data.
-
-Installation Checklist
-----------------------
-
-To assist you in getting through the setup documentation we have created this
-[checklist](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/Indoor_M1_Installation_Checklist.pdf).
-Download, print out, and check of each off the key installation steps as you go,
-to ensure you don’t miss anything important.
 
 How to purchase a FarmBeats Student Kit
 ---------------------------------------
@@ -98,7 +101,7 @@ Parts List
 
 -   1 x Grove Soil Moisture Sensor
 
--   1 x Grove Temperature, Humidity & Barometer Sensor 
+-   1 x Grove Temperature, Humidity & Barometer Sensor
 
 -   1 x Grove Light Sensor
 

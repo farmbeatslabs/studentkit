@@ -9,7 +9,7 @@ Portal](https://farmbeatsstudentkit.com) and Azure IoT Central cloud service.
 
 To complete this stage of the installation you will require:
 
--   A complete FarmBeats Student Kit
+-   A complete FarmBeats Student Kit with Raspberry Pi and Sensors
 
 -   A Windows PC that can download and run applications (optional)
 
@@ -19,6 +19,12 @@ To complete this stage of the installation you will require:
 
 -   A small Philips head screwdriver
 
+-   The device password “p\@ssw0rd” (for pre-installed kits)
+
+-   The latest [FarmBeats Labs Sensor Application for the Indoor
+    M1](https://fblassets.blob.core.windows.net/releases/FarmBeatsLabs.UWP.Headless_1.0.11.0_arm.zip)
+    software.
+
 Installing Windows 10 IoT Core on you Raspberry Pi 3
 ----------------------------------------------------
 
@@ -27,16 +33,14 @@ devices with or without a display, and that runs on small devices like the
 Raspberry Pi 3. Windows 10 IoT Core utilizes the extensible Universal Windows
 Platform (UWP) API for building rich Internet of Things solutions.
 
-*\*\*\**
-
 *Important Note: This step can only be completed on a Windows PC and is not
 supported on a Mac Book or Chromebook.*
 
-*This step may be optional for you as some of the kits are shipped with the SD
-card pre-installed. If your SD card is inserted in the Raspberry Pi then you can
-skip this step and jump straight to the Configure Windows 10 IoT Core section.*
+*This step may be optional: Some of the kits are shipped with the SD card
+pre-installed. If your SD card is NOT still in the packet then you can skip this
+step and jump straight to the Configure Windows 10 IoT Core section.*
 
-*\*\*\**
+*The password for the pre-installed kits is “p\@ssw0rd”*
 
 -   Go to the [Windows 10 IoT Core Dashboard Documentation
     Page](https://docs.microsoft.com/en-us/windows/iot-core/connect-your-device/iotdashboard)
@@ -50,14 +54,14 @@ skip this step and jump straight to the Configure Windows 10 IoT Core section.*
 -   Select **set up a new device** from the side bar.
 
 -   Insert the microSD card into your computer or laptop. You may need to use
-    the SD card adapter and plug it into a USB port on your PC
+    the SD card adapter and plug it into a USB port on your PC.
 
 -   Select the options as shown in the image below for device type and OS Build.
 
--   Make sure you select the correct drive for your microSD card
+-   Make sure you select the correct drive for your microSD card.
 
--   Give your device a friendly name and **administrator password**. You will
-    need to write down the password to use later.
+-   Give your device a friendly name and **your administrator password**. You
+    will need to write down the password to use later.
 
 -   If your device was supplied with a pre-installed operating system on the SD
     card then your administrator password is going to be “**p\@ssw0rd”**
@@ -82,12 +86,10 @@ skip this step and jump straight to the Configure Windows 10 IoT Core section.*
 
 ![](media/e1e33a7c2986b8a97668ee42bed6acff.png)
 
--   You will get a security prompt for the Deployment Image Servicing and
-    Management tool, click Yes to allow this to run.
-
 ![](media/a34610885c7b518026d3c7671413e894.png)
 
-![](media/02be50d6b6f82c721bbb3b5301707444.png)
+-   You will get a security prompt for the Deployment Image Servicing and
+    Management tool, click Yes to allow this to run.
 
 -   When the SD card flashing is complete you will get a bunch of File Explorer
     instances launch and the PC recognizes the different partitions on the SD
@@ -95,34 +97,36 @@ skip this step and jump straight to the Configure Windows 10 IoT Core section.*
     cancel on the Format dialog and close all the remaining File Explorer
     windows.
 
-![](media/d02a8f386599a6d7a6a0d5ccfd2041f8.jpg)
+![](media/02be50d6b6f82c721bbb3b5301707444.png)
 
 -   Once the image has been installed on the microSD card, you will get the
     screen and message **“Your SD card is ready”**.
 
+![](media/d02a8f386599a6d7a6a0d5ccfd2041f8.jpg)
+
 -   Now it's time to eject the SD card from your PC and insert it into the
     Raspberry Pi slot on the underneath.
 
-![](media/4d30fd69f13ba83c035814c019a86aad.jpg)
+![](media/66e67bc0eda2ccb8af91d5955254f6c4.jpg)
 
 Connect Sensors
 ---------------
 
-Adding sensors to your Raspberry Pi is easy.
-
-*Note: All remaining steps can be done on any device with a browser.*
+The Grove connector system makes adding sensors to your Raspberry Pi is easy.
 
 -   Add the Grove Base Hat to your Raspberry Pi. Match the end pins up and press
     down firmly. Look at it from all angles to ensure that it is correctly
     connected.
 
-![](media/4b802b3790f57552645748940ee204f0.jpg)
+![](media/7314f9091b9e3aac9bdecd349ef3c947.jpg)
 
 -   Screw in the supports on the side opposite the pins to stop the other side
     of the Grove Base Hat from collapsing onto the Raspberry Pi. This requires a
     small screwdriver that is not supplied with the kit sorry.
 
-![](media/1f209ed732abfc9e0d013b58ee6b912e.png)
+![](media/754ca16ffcd4571f1f6ef783cb3c05bb.jpg)
+
+![](media/1fe6d33fb09262415256b54a2a0b034b.jpg)
 
 -   Plug the Capacitive Soil Moisture Sensor into socket A2. If you have a
     second one plug it into A4.
@@ -147,21 +151,18 @@ Connecting to the LAN and Internet
 ----------------------------------
 
 There are multiple options to getting your Raspberry Pi online and reachable by
-your PC. It’s essential to have your Raspberry Pi and PC either wired or
-wireless.
+your PC. It’s essential to have your Raspberry Pi and PC connected to the same
+network.
 
 *Note: Internet connectivity and device to device communication is the area that
-often requires the most troubleshooting. It’s best to have the Raspberry Pi
-connected to an Ethernet connection. If this is not possible there may be
-additional manual steps to get it online.*
+often requires the most troubleshooting. See Known Issues and Frequently Asked
+Questions if you are having issues getting your device online.*
 
 -   **Ethernet Cabled** – Plug one side of the LAN cable into the Raspberry Pi
     and the other into the same Ethernet Hub or Switch that your PC is plugged
     into.
 
 ![](media/ceab608d1b677684ce329ee41425de39.jpg)
-
-![](media/3c6a35bbeaf3da84b9b03baed8a04eef.jpg)
 
 -   **Wi-Fi** - During the creation of the device image you had the option of
     having the Raspberry Pi join a wi-fi as part of the SD Card operating system
@@ -193,121 +194,118 @@ Power on your device
 
 -   Booting the device until it’s ready to use takes a few minutes. You should
     see the Windows Logo within a few seconds and be able to watch this process
-    on the monitor. If you don’t see a Windows Logo then
+    on the monitor.
 
 The “out of the box” setup process.
 -----------------------------------
 
 You need to do a few steps on the device to complete the operating system
-installation.
+installation. Use the mouse, keyboard and monitor to enter configure your device
+and test you are connected to the internet.
 
 -   On the first welcome to Windows 10 IoT Core screen you will be asked to
     choose a language.
 
--   This screen also shows you the IP address of your device on the network.
-
 -   Next screen allows you to select the level of information you want to send
     back to Microsoft.
 
--   Another screen allows you to select the privacy setting for sharing your
+-   The next screen allows you to select the privacy setting for sharing your
     location.
 
--   Even if the device is connected to the Ethernet the next screen will allow
-    you to configure your internet with Wi-Fi details. User the mouse and
-    keyboard to enter your Wi-Fi password to connect to the web.
+-   The next screen will allow you to configure your Wi-Fi details. If the
+    device is connected to the Ethernet this is an optional step.
 
 ![](media/0eb869c7aede0e6380715461cee8a1d1.png)
 
-It'll take a couple of minutes, but when booted up you'll see the Windows 10 IoT
-Core splash screen. There's no flipping in and out of Windows and launching apps
-like you would on a PC.
+-   When configuration is finished you will be presented with the Windows IoT
+    Core Default Application. This application provides you with the ability see
+    basic device information, install sample applications and also provides a
+    command line interface.
 
 ![](media/2f7a8464ac562e778827f1cad4e10370.png)
 
--   When booted, check that you have a valid IP address. At this point you can
-    remotely administer the device via a web browser. To access the device via a
-    browser with the IP address followed by the port 8080. E.g.
-    <http://192.168.1.60:8080>
+-   At this point you can remotely administer the device via a web browser. To
+    access the device via a browser with the IP address followed by the port
+    8080. E.g. <http://192.168.1.60:8080>
+
+-   To test your device has internet connectivity select the command line icon
+    on the left menu, type “ping 1.1.1.1” and you should get a response from a
+    global DNS server.
+
+![](media/3c4449b4fdf3e438e8ac7ccc15a05f23.png)
+
+Obtaining the Device ID 
+------------------------
+
+There are two ways to collect the Device ID
+
+-   Typing “ipconfig /all” using the Mouse, Keyboard and Monitor.
+
+-   Remotely through the device Windows Device Portal
+
+*Important Note: You must select the Physical address from the LAN card, not
+Wi-Fi, Bluetooth or any other connection type. Description starts with LAN. Type
+is Ethernet.*
+
+*Note: All remaining steps can be done on nearly any device with a browser.
+However, the Windows Device Portal is not supported on Safari. Please use Chrome
+or Firefox to remotely administer your Windows 10 IoT Core device.*
+
+### Obtaining the Device ID using Mouse, Keyboard and Monitor 
+
+Another way to obtain the Device ID is using the Mouse, Keyboard and Monitor.
+
+-   On the Raspberry Pi, select the Command Line on the left menu.
+
+-   Type “**ipconfig /all**” and scroll up to the Ethernet adapter Ethernet:
+    section. Here you can see that the Physical Address that we are using for
+    the **Device ID** is **b827eb653aba.**
+
+![](media/c61878d9e66cc0e78cbb109a6d87ad84.png)
+
+### Using the Windows Device Portal to obtain the Device ID
 
 -   If both devices are on the same network you should also now be able to go
     back to the dashboard application on your PC, and you'll see your Raspberry
     Pi listed as one of your devices.
 
-Configuring Windows 10 IoT Core
--------------------------------
-
-*Note: The Windows Device Portal is not supported on Safari. Please use Chrome
-or Firefox to remotely administer your Windows IoT Core device.*
+-   The [Windows Device
+    Portal](https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/DevicePortal)
+    (WDP) lets you configure and manage your device remotely over your local
+    network.
 
 -   In the Windows IoT Dashboard select the **My devices** tab on the top left.
 
 -   In the **My devices** page right click on your Raspberry Pi to access the
     menu.
 
--   Select the **Open in device portal** menu item
+-   Select the **Open in Device Portal** menu item
 
-![](media/bb5260823b9a908db763d51bc5b5a08a.png)
+![](media/329f6b4d14dfb22030a8194f26c22414.png)
 
--   If you don’t see your device in the list then use the IP address shown on
-    the monitor that your Raspberry Pi is connected to. To access the device via
-    a browser with the IP address followed by the port 8080. E.g.
+-   If you don’t see your device in the My Devices list then use the IP address
+    shown on the monitor that your Raspberry Pi is connected to. To access the
+    device via a browser with the IP address followed by the port 8080. E.g.
     <http://192.168.1.60:8080>
 
 -   Login to Windows Device Portal using the username **Administrator** and the
-    password you used when making the SD card. Default password is “p\@ssw0rd”.
-    The [Windows Device
-    Portal](https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/DevicePortal)
-    (WDP) lets you configure and manage your device remotely over your local
-    network.
-
-![](media/e3e42de7d615f0dcbde66ed907c1e98f.png)
+    password you used when making the SD card. Default password is
+    **“p\@ssw0rd”.**
 
 -   Select **Connectivity** on the menu on the left, then Select **Network**
 
--   On the right hand side of the screen are listed all the types of network
-    connections on the Raspberry Pi. Look for the one that starts Record the Mac
-    address of your **LAN** card.
+![](media/6c29aa6f20edd75efe88a5b3f334cd62.png)
 
-![](media/3696af5f61d76ece9e7422b8b2a6d107.png)
+-   On the right-hand side of the screen are listed all the types of network
+    connections on the Raspberry Pi. Look for the one that starts Record the
+    Physical address of your **LAN** card.
+
+![](media/d7221b5fb74af63042016f4bdf4fb945.png)
 
 -   Look for the one that starts with LAN and record the **Physical address,
     without the dashes in between.** This is your unique device ID that is used
-    as the claim code for device registration on the Student Kit Portal.
-
-*Important Note: You must select the MAC address from the LAN card, not Wi-Fi,
-Bluetooth or any other connection type. Description starts with LAN. Type is
-Ethernet.*
-
--   In this example the **Device ID** is **b827eb653aba**
-
-![](media/10840bf557bfa957de25b7901e6ed7d9.png)
-
--   **Check for Windows Updates.** Click Check for Updates to see if there are
-    any updates for your device. This process can take a while but will download
-    and install in the background.
-
--   **Change the device name** select “Device Settings” on the left menu. Then
-    type a new name and select Save. It will prompt you to reboot the device.
-
-![](media/9905fa05c59c88c819f3d1cfd81a019f.png)
-
-**Getting your Device ID and testing internet connectivity on the device**
-
--   Another way to obtain the LAN MAC address and check that your device is
-    connected to the internet is to use the Command Line on the device using the
-    Mouse, Keyboard and Monitor.
-
--   Select the Command Line on the left menu. Type “**ipconfig /all**” and
-    scroll up to the Ethernet adapter Ethernet: section. Here you can see that
-    the Physical Address that we are using for the **Device ID** is
-    **b827eb653aba.**
-
-![](media/c61878d9e66cc0e78cbb109a6d87ad84.png)
-
--   To test your device has internet connectivity you can type “ping 1.1.1.1”
-    and you should get a response from a global DNS server.
-
-![](media/e40aa98c0a2e50fb4cb7a3fb8c9fd001.png)
+    as the claim code for device registration on the Student Kit Portal. In this
+    example the **Device ID** is **b827eb653aba**
 
 Installing Sensor Gateway Application Software
 ----------------------------------------------
@@ -373,3 +371,15 @@ software
 
 Now proceed to [Step 2 – Register your FarmBeats Student Kit User and
 Device](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/2_Register_your_FarmBeats_Student_Kit_User_and_Device.md)
+
+Optional Configuration 
+-----------------------
+
+-   **Check for Windows Updates.** Click Check for Updates to see if there are
+    any updates for your device. This process can take a while but will download
+    and install in the background.
+
+-   **Change the device name** select “Device Settings” on the left menu. Then
+    type a new name and select Save. It will prompt you to reboot the device.
+
+![](media/9905fa05c59c88c819f3d1cfd81a019f.png)
