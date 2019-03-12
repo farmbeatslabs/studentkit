@@ -27,11 +27,16 @@ devices with or without a display, and that runs on small devices like the
 Raspberry Pi 3. Windows 10 IoT Core utilizes the extensible Universal Windows
 Platform (UWP) API for building rich Internet of Things solutions.
 
+*\*\*\**
+
 *Important Note: This step can only be completed on a Windows PC and is not
-supported on a Mac Book or Chromebook. This step may be optional for you as some
-of the kits are shipped with the SD card pre-installed. If your SD card is
-inserted in the Raspberry Pi then you can skip this step and jump straight to
-the Configure Windows 10 IoT Core section.*
+supported on a Mac Book or Chromebook.*
+
+*This step may be optional for you as some of the kits are shipped with the SD
+card pre-installed. If your SD card is inserted in the Raspberry Pi then you can
+skip this step and jump straight to the Configure Windows 10 IoT Core section.*
+
+*\*\*\**
 
 -   Go to the [Windows 10 IoT Core Dashboard Documentation
     Page](https://docs.microsoft.com/en-us/windows/iot-core/connect-your-device/iotdashboard)
@@ -230,6 +235,9 @@ like you would on a PC.
 
 Configuring Windows 10 IoT Core
 -------------------------------
+
+*Note: The Windows Device Portal is not supported on Safari. Please use Chrome
+or Firefox to remotely administer your Windows IoT Core device.*
 
 -   In the Windows IoT Dashboard select the **My devices** tab on the top left.
 
