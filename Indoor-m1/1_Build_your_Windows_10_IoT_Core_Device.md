@@ -107,7 +107,7 @@ step and jump straight to the Configure Windows 10 IoT Core section.*
 -   Now it's time to eject the SD card from your PC and insert it into the
     Raspberry Pi slot on the underneath.
 
-![](media/66e67bc0eda2ccb8af91d5955254f6c4.jpg)
+![](media/97c4c4e554589a05a1637a181ef24d9a.jpg)
 
 Connect Sensors
 ---------------
@@ -118,15 +118,15 @@ The Grove connector system makes adding sensors to your Raspberry Pi is easy.
     down firmly. Look at it from all angles to ensure that it is correctly
     connected.
 
-![](media/7314f9091b9e3aac9bdecd349ef3c947.jpg)
+![](media/d433e18a714d5697b081c6611a60f11b.jpg)
 
 -   Screw in the supports on the side opposite the pins to stop the other side
     of the Grove Base Hat from collapsing onto the Raspberry Pi. This requires a
     small screwdriver that is not supplied with the kit sorry.
 
-![](media/754ca16ffcd4571f1f6ef783cb3c05bb.jpg)
+![](media/698a595372bfcbb43531cbe69a913de8.jpg)
 
-![](media/1fe6d33fb09262415256b54a2a0b034b.jpg)
+![](media/9d34280826f58b657e3f4f43945c2faf.jpg)
 
 -   Plug the Capacitive Soil Moisture Sensor into socket A2. If you have a
     second one plug it into A4.
@@ -233,7 +233,7 @@ and test you are connected to the internet.
     on the left menu, type “ping 1.1.1.1” and you should get a response from a
     global DNS server.
 
-![](media/3c4449b4fdf3e438e8ac7ccc15a05f23.png)
+![](media/4621f2e07d96bc858342980356c1fc32.png)
 
 Obtaining the Device ID
 -----------------------
@@ -282,7 +282,7 @@ Another way to obtain the Device ID is using the Mouse, Keyboard and Monitor.
 
 -   Select the **Open in Device Portal** menu item
 
-![](media/329f6b4d14dfb22030a8194f26c22414.png)
+![](media/a21bdf9b1865e1f07688f104fd8e5bfe.png)
 
 -   If you don’t see your device in the My Devices list then use the IP address
     shown on the monitor that your Raspberry Pi is connected to. To access the
@@ -295,13 +295,13 @@ Another way to obtain the Device ID is using the Mouse, Keyboard and Monitor.
 
 -   Select **Connectivity** on the menu on the left, then Select **Network**
 
-![](media/6c29aa6f20edd75efe88a5b3f334cd62.png)
+![](media/ff0b13a743e48640294ac95382bded13.png)
 
 -   On the right-hand side of the screen are listed all the types of network
     connections on the Raspberry Pi. Look for the one that starts Record the
     Physical address of your **LAN** card.
 
-![](media/d7221b5fb74af63042016f4bdf4fb945.png)
+![](media/8ab91e1fd79ce95e31b7d0c8f64f4b1e.png)
 
 -   Look for the one that starts with LAN and record the **Physical address,
     without the dashes in between.** This is your unique device ID that is used
