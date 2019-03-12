@@ -25,8 +25,8 @@ To complete this stage of the installation you will require:
     M1](https://fblassets.blob.core.windows.net/releases/FarmBeatsLabs.UWP.Headless_1.0.11.0_arm.zip)
     software.
 
-Installing Windows 10 IoT Core on you Raspberry Pi 3
-----------------------------------------------------
+Installing Windows 10 IoT Core on your Raspberry Pi 3
+-----------------------------------------------------
 
 Windows 10 IoT Core is a version of Windows 10 that is optimized for smaller
 devices with or without a display, and that runs on small devices like the
@@ -226,7 +226,8 @@ and test you are connected to the internet.
 
 -   At this point you can remotely administer the device via a web browser. To
     access the device via a browser with the IP address followed by the port
-    8080. E.g. <http://192.168.1.60:8080>
+
+    1.  E.g. <http://192.168.1.60:8080>
 
 -   To test your device has internet connectivity select the command line icon
     on the left menu, type “ping 1.1.1.1” and you should get a response from a
@@ -234,8 +235,8 @@ and test you are connected to the internet.
 
 ![](media/3c4449b4fdf3e438e8ac7ccc15a05f23.png)
 
-Obtaining the Device ID 
-------------------------
+Obtaining the Device ID
+-----------------------
 
 There are two ways to collect the Device ID
 
@@ -251,7 +252,7 @@ is Ethernet.*
 However, the Windows Device Portal is not supported on Safari. Please use Chrome
 or Firefox to remotely administer your Windows 10 IoT Core device.*
 
-### Obtaining the Device ID using Mouse, Keyboard and Monitor 
+### Obtaining the Device ID using Mouse, Keyboard and Monitor
 
 Another way to obtain the Device ID is using the Mouse, Keyboard and Monitor.
 
@@ -372,8 +373,8 @@ software
 Now proceed to [Step 2 – Register your FarmBeats Student Kit User and
 Device](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/2_Register_your_FarmBeats_Student_Kit_User_and_Device.md)
 
-Optional Configuration 
------------------------
+Optional Configuration
+----------------------
 
 -   **Check for Windows Updates.** Click Check for Updates to see if there are
     any updates for your device. This process can take a while but will download
