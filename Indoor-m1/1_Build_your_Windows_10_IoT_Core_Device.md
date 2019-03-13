@@ -4,16 +4,20 @@ Build your Windows 10 IoT Core Sensor Device
 This lab document is to help students with the FarmBeats Student Kit device
 setup.
 
-The steps include:
+There are several sub steps that we have broken down into individual documents:
 
--   Install Windows 10 IoT Core on your SD Card (not required if your kit comes
-    with a pre-installed SD Card)
+-   [1a Install Windows 10 IoT Core on your SD
+    Card](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/1a_Install_Windows_10_IoT_Core_on_your_SD_card.md)
+    (not required if your kit comes with a pre-installed SD Card)
 
--   Assemble your FarmBeats Student Kit hardware
+-   [1b Assemble your FarmBeats Student Kit
+    hardware](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/1b_Assemble_your_FarmBeats_Student_Kit_Hardware.md)
 
--   Identify your unique Device ID
+-   [1c Identify your unique Device
+    ID](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/1c_Identify_your_unique_Device_ID.md)
 
--   Install the FarmBeats Sensor Software
+-   [1d Install the FarmBeats Sensor
+    Software](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/1d_Install_the_FarmBeats_Sensor_Application_Software.md)
 
 To complete this stage of the installation you will require:
 
