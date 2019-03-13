@@ -204,5 +204,5 @@ You have now completed getting your devices powered up and online and have
 collected your unique Device ID. Write this Device ID down for later use when
 you need to register your device.
 
-Next steps are to install the FarmBeats Sensor Application Software onto the
-Raspberry Pi.
+Next steps are to [install the FarmBeats Sensor Application Software onto the
+Raspberry Pi](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/1d_Install_the_FarmBeats_Sensor_Application_Software.md).
