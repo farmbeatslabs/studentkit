@@ -6,14 +6,20 @@ devices with or without a display, and that runs on small devices like the
 Raspberry Pi 3. Windows 10 IoT Core utilizes the extensible Universal Windows
 Platform (UWP) API for building rich Internet of Things solutions.
 
-*Important Note: This step can only be completed on a Windows PC and is not
-supported on a Mac Book or Chromebook.*
-
 *This step may be optional: Some of the kits are shipped with the SD card
 pre-installed. If your SD card is NOT still in the packet then you can skip this
 step and jump straight to the Assembling your FarmBeats Student Kit.*
 
-*The password for the pre-installed SD cards is “p\@ssw0rd”*
+Preparation
+-----------
+
+-   This step can only be completed on a Windows PC and is not supported on a
+    Mac Book or Chromebook.
+
+-   Have a Micro SD Card with an adapter to be able to use it on your PC
+
+Download the Windows 10 IoT Core Dashboard
+------------------------------------------
 
 -   Go to the [Windows 10 IoT Core Dashboard Documentation
     Page](https://docs.microsoft.com/en-us/windows/iot-core/connect-your-device/iotdashboard)
@@ -23,6 +29,9 @@ step and jump straight to the Assembling your FarmBeats Student Kit.*
 ![](media/9de93f80bd289832fe0b57fadfcb24e0.jpg)
 
 -   Install the dashboard application and open it
+
+Installing Windows 10 IoT Core
+------------------------------
 
 -   Select **set up a new device** from the side bar.
 

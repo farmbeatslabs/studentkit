@@ -10,17 +10,20 @@ its IP address to access Windows IoT Dashboard and then locate the device ID.
 
 The following steps will guide you through this process.
 
-Preparation: 
--------------
+Preparation
+-----------
 
-Gather the Raspberry Pi, ethernet cable, micro USB cable, and power adapter from
-the FarmBeats student kit.
+-   Complete [Step 1b – Assemble your FarmBeats Student
+    Kit](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/1b_Assemble_your_FarmBeats_Student_Kit_Hardware.md)
 
-Find access to a computer mouse, keyboard, monitor, and HDMI cable.
+-   Gather the Raspberry Pi, ethernet cable, micro USB cable, and power adapter
+    from the FarmBeats student kit.
 
-Verify that a micro SD card is already inserted in the Raspberry Pi. If not,
-please refer to the Assemble your FarmBeats Student Kit Hardware guide before
-continuing with this process.
+-   Find access to a computer mouse, keyboard, monitor, and HDMI cable.
+
+-   Verify that a micro SD card is already inserted in the Raspberry Pi. If not,
+    please refer to the Assemble your FarmBeats Student Kit Hardware guide
+    before continuing with this process.
 
 ![](media/c610a04f4848eca9a1f43db8e611cc4a.png)
 
@@ -123,8 +126,8 @@ have an IP already showing as in the last image above.
 -   To configure Wi-Fi on your device press the settings button in the bottom
     left of the default application (outlined in red below)
 
-[./media/image9.png](./media/image9.png)
-----------------------------------------
+./media/image9.png
+------------------
 
 -   Select Network & Wi-Fi
 
