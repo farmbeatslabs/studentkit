@@ -68,3 +68,9 @@ services APIs that integrate seamlessly with other Azure tools and services.
 Other Terminology
 ============================
 
+**IP Address**
+The Internet Protocol (IP) address is a unique sequence of of numbers seperated by periods (123.456.789) that is used to identify a device that is using the Internet Protocol to communicate on a network. 
+
+**IP Network**
+An Internet Protocol (IP) network is a communication network used to send and receive messages between one or more device, such as a computer or in your case, the FarmBeats student kit.
+
