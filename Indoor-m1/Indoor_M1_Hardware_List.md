@@ -22,7 +22,7 @@ FarmBeats student kit.
 Grove Base Hat for Raspberry Pi
 
 [Grove Base Hat for Raspberry
-Pi](https://www.seeedstudio.io/Grove-Base-Hat-for-Raspberry-Pi-p-3186.html)
+Pi](https://www.seeedstudio.com/Grove-Base-Hat-for-Raspberry-Pi-p-3186.html)
 
 The Grove Base Hat for Raspberry Pi allows you to add analog, digital and I2C
 sensors.
@@ -32,7 +32,7 @@ sensors.
 Grove - Temp&Humi&Barometer Sensor (BME280)
 
 [Grove Temperature, Humidity and Barometric Pressure
-Sensor](https://www.seeedstudio.io/Grove-Temp%26Humi%26Barometer-Sensor-%28BME280%29-p-2653.html)
+Sensor](https://www.seeedstudio.com/Grove-Temp-Humi-Barometer-Sensor-BME280-p-2653.html)
 
 The BME 280 is a Bosch, three-in-one, high-precision environmental sensor.
 
