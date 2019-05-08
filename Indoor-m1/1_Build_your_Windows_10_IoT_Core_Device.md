@@ -9,12 +9,15 @@ There are currently two variations of the Student Kit that are being distributed
 - The standard version guides students through the full device installation process as part of the learning experience 
 
 
-The Quick Version
------------------
+The quick setup
+---------------
 To identify if you have the quick version, look on the bottom of your Raspeberry Pi. If your Raspberry Pi has a Device ID sticker on it then you have the quick version and you are not required to complete most of this setup section. 
  -  Instead go directly to [1b Assemble your FarmBeats Student Kit hardware](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/1b_Assemble_your_FarmBeats_Student_Kit_Hardware.md)
  -  Then move on to [Step 2 - Registering your FarmBeats Student Kit User and Device](https://github.com/farmbeatslabs/studentkit/blob/master/Indoor-m1/2_Register_your_FarmBeats_Student_Kit_User_and_Device.md) 
 
+
+The standard setup 
+------------------
 For the standard kit without this Device ID already extracted there are several sub steps that we have broken down into individual documents that you will need to follow before proceeding to Step 2:
 
 -   [1a Install Windows 10 IoT Core on your SD
