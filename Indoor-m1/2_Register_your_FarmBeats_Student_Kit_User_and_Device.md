@@ -101,6 +101,11 @@ us](mailto:support@farmbeatslabs.com) *to arrange.*
 
 ![](media/ce49fc97053af0332676b55bf3049420.png)
 
+-   If you get an error message about the URL being incorrect, please ensure that you
+    are not logged into any other Microsoft Accounts. You have two options: either signout
+    of your other account, or open a new browser window in a private mode then login and try
+    to access the Azure IoT Central URL again.
+
 ### User account and device registration complete
 
 -   You have now completed the User and Device registration and the Azure IoT
