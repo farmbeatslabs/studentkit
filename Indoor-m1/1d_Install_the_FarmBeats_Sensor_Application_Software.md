@@ -30,6 +30,8 @@ To complete these steps, you will need a keyboard, monitor and computer mouse.
 -   Open the Windows Device Portal. This can be done by opening a web browser
     and typing in your device IP address (found in previous step by step
     instructions) followed by 8080 (eg. http://192.168.1.60:8080)
+    
+-   Use the credentials that you used when making the SD card. The default values are Administrator/p@ssw0rd.
 
 -   In the Windows Device Portal, Select **Apps** on the left menu ad then **App
     manager**
